@@ -12,3 +12,138 @@
     
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo do Vôlei</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #00529b, #ffb612);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+        }
+
+        nav {
+            background-color: #222;
+            text-align: center;
+            padding: 0.5rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 0.5rem;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffb612;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-top: 5px solid #00529b;
+        }
+
+        .card h3 {
+            color: #00529b;
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mundo do Vôlei</h1>
+        <p>A sua paixão pelo esporte em um só lugar</p>
+    </header>
+
+    <nav>
+        <a href="#historia">História</a>
+        <a href="#regras">Regras Básicas</a>
+        <a href="#posicoes">Posições</a>
+    </nav>
+
+    <div class="container">
+        <section id="historia">
+            <h2>O que é o Vôlei?</h2>
+            <p>O voleibol é um dos esportes mais populares do mundo. Criado em 1895 por William G. Morgan nos Estados Unidos, o objetivo principal é colocar a bola na quadra adversária passando por cima da rede, usando apenas as mãos e braços.</p>
+        </section>
+
+        <section id="regras" style="margin-top: 3rem;">
+            <h2>Regras Fundamentais</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Toques na Bola</h3>
+                    <p>Cada equipe pode dar no máximo 3 toques na bola antes de passá-la para o outro lado (além do toque do bloqueio).</p>
+                </div>
+                <div class="card">
+                    <h3>Pontuação</h3>
+                    <p>As partidas normais são disputadas em melhor de 5 sets. Os 4 primeiros sets vão até 25 pontos. O set de desempate (tie-break) vai até 15.</p>
+                </div>
+                <div class="card">
+                    <h3>Rotação (Rodízio)</h3>
+                    <p>Os jogadores devem rodar no sentido horário toda vez que a equipe recupera o direito de sacar.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Criado por um fã de Vôlei no GitHub Pages</p>
+    </footer>
+
+</body>
+</html>
